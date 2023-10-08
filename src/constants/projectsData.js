@@ -17,7 +17,7 @@ const projectsData = [
     title: "Full Fledged Todo App with all features like creating task, timestamp tasks, sort tasks etc.",
     description:
       "It is a full fledged todo application with all features like for creating todos, each todo is having task with time stamps. User can sort todos based upon time.User have authentication and authorization functionality as well.",
-    href: "https://navdeep-todo.netlify.app/signup",
+    href: "https://navdeepsingh16-98.github.io/TodoAppFull/",
     key: "project-2",
   },
 ];
