@@ -6,7 +6,7 @@ import ICONS from "../../../constants/icons";
 export default function Projects() {
   return (
     <div>
-     <Link isExternal href="https://navdeep-portfolio-projects.netlify.app/" textDecoration="none !important" style={{color:"blue"}}>
+     <Link isExternal href="https://navdeepsingh16-98.github.io/portfolio-projects/" textDecoration="none !important" style={{color:"blue"}}>
                 <Heading fontSize="md">
                   Link To All Personal Projects <Icon as={ICONS.EXTERNAL_LINK} />
                 </Heading>
