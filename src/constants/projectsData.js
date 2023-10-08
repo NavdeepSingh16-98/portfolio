@@ -8,7 +8,7 @@ const projectsData = [
     title: "Singh Mobiles",
     description:
       "It is an ecommerce website for a mobile store with all features like cart, payment gateway and product code. Developed Node Js expres Js REST based back-end application and converted client side to downloadable Progressive Web App which sent notifications to mobile Application is still being used by Sing Mobiles, Ludhiana.",
-    href: "https://navdeep-ecommerce.netlify.app/",
+    href: "https://navdeepsingh16-98.github.io/ExpressQ9/",
     key: "project-1",
   },
   {
