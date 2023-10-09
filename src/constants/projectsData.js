@@ -1,6 +1,10 @@
 import project1 from "../assets/images/projects/mern1.PNG";
 import project2 from "../assets/images/projects/mern2.PNG";
 
+// https://navdeepsingh16-98.github.io/ExpressQ9/
+
+// https://navdeepsingh16-98.github.io/TodoAppFull/
+
 const projectsData = [
   {
     img: project1,
@@ -8,7 +12,7 @@ const projectsData = [
     title: "Singh Mobiles",
     description:
       "It is an ecommerce website for a mobile store with all features like cart, payment gateway and product code. Developed Node Js expres Js REST based back-end application and converted client side to downloadable Progressive Web App which sent notifications to mobile Application is still being used by Sing Mobiles, Ludhiana.",
-    href: "https://navdeepsingh16-98.github.io/ExpressQ9/",
+    href: "https://github.com/NavdeepSingh16-98/ExpressQ9",
     key: "project-1",
   },
   {
@@ -17,7 +21,7 @@ const projectsData = [
     title: "Full Fledged Todo App with all features like creating task, timestamp tasks, sort tasks etc.",
     description:
       "It is a full fledged todo application with all features like for creating todos, each todo is having task with time stamps. User can sort todos based upon time.User have authentication and authorization functionality as well.",
-    href: "https://navdeepsingh16-98.github.io/TodoAppFull/",
+    href: "https://github.com/NavdeepSingh16-98/TodoAppFull",
     key: "project-2",
   },
 ];
