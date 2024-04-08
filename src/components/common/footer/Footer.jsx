@@ -22,8 +22,8 @@ export default function Footer() {
 
   return (
     <Box
-      bg={useColorModeValue("white", "#1A202C")}
-      color={useColorModeValue("black", "white")}
+      bg={useColorModeValue("slategray", "#1A202C")}
+      color={useColorModeValue("white", "white")}
       mt="4rem !important"
     >
       <Container

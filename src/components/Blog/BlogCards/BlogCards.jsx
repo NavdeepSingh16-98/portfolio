@@ -70,8 +70,8 @@ export default function BlogCards({
                 borderRadius="full"
                 backgroundColor={
                   colorMode === "light"
-                    ? "var(--chakra-colors-blue-50)"
-                    : "var(--chakra-colors-blue-900)"
+                    ? "slategray"
+                    : "slategray"
                 }
                 color={
                   colorMode === "light"
