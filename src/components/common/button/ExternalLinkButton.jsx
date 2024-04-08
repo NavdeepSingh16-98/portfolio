@@ -7,7 +7,7 @@ export default function ExternalLinkButton(props) {
   return (
     <Button
       cursor={"pointer"}
-      color="blue.500"
+      color="blue"
       as={"a"}
       href={href}
       target="_blank"

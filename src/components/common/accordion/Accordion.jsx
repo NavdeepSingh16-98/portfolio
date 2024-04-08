@@ -71,7 +71,7 @@ export default function Accordion({
                 fontSize="sm"
                 color={
                   colorMode === "light"
-                    ? "var(--chakra-colors-gray-600)"
+                    ? "white"
                     : "var(--chakra-colors-gray-50)"
                 }
               >
@@ -89,7 +89,7 @@ export default function Accordion({
                 fontSize="sm"
                 color={
                   colorMode === "light"
-                    ? "var(--chakra-colors-gray-600)"
+                    ? "white"
                     : "var(--chakra-colors-gray-50)"
                 }
               >
