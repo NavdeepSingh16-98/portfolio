@@ -12,7 +12,7 @@ import {
 
 import profilePic from "../../../assets/images/Photograph.JPG";
 import ICONS from "../../../constants/icons";
-import { tcsLink } from "../../../constants/links";
+import { tcsLink, accentureLink } from "../../../constants/links";
 
 export default function Introduction() {
   return (
@@ -37,24 +37,31 @@ export default function Introduction() {
           /> */}
         </Heading>
         <Text fontSize="md">
-          I&apos;m full-stack developer(Proficient in Frontend). I
-          work at{" "}
+          I&apos;m a full-stack developer (proficient in Frontend). I currently
+          work at {" "}
+          <Link href={accentureLink} isExternal>
+            Accenture Solutions Private Ltd<Icon as={ICONS.EXTERNAL_LINK} mx="2px" />
+          </Link>{" "}
+          as a Senior Analyst — Packaged Application Development. Previously, I
+          worked at {" "}
           <Link href={tcsLink} isExternal>
             TCS<Icon as={ICONS.EXTERNAL_LINK} mx="2px" />
           </Link>{" "}
-          as a System Engineer(TCS Digital).
+          as a System Engineer (TCS Digital) until November 2024.
           <br />
-          I am passionate for creating things. I love to build and develop
-          software that help society. <br />
-          In my pass-time, I socialize with my friends, and go for long walks. I
-          meditate and also do public speaking at toastmasters clubs.
+          I am passionate about creating things. I love building software that
+          helps society.
+          <br />
+          In my pastime, I socialize with friends, go for long walks, meditate,
+          and do public speaking at Toastmasters clubs.
         </Text>
       </VStack>
       <Flex>
         <Image
           borderRadius="full"
           src={profilePic}
-          boxSize="224px"
+          w="330px"
+          h="auto"
           objectFit={"cover"}
           loading="lazy"
           alt="Navdeep Singh"

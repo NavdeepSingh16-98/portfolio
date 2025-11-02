@@ -1,4 +1,4 @@
-import {  tcsLink } from "./links";
+import {  tcsLink,accentureLink } from "./links";
 
 const experienceData = [
   {
