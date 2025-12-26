@@ -3,13 +3,23 @@ import {  tcsLink,accentureLink } from "./links";
 const experienceData = [
   {
     id: 1,
+    title: "Accenture Solutions Private Ltd",
+    timeline: "November 2024 - Present",
+    link: accentureLink,
+    subtitle: "Senior Analyst — Packaged Application Development",
+    description: "At Accenture as a Senior Analyst, I work at company's Noida offices in India.",
+    data: ["I work as a full stack developer in Accenture Insurance Domain technology division."],
+  },
+   {
+    id: 2,
     title: "Tata Consultancy Services(TCS)s",
-    timeline: "November 2020 - Present",
+    timeline: "November 2020 - November 2024",
     link: tcsLink,
     subtitle: "System Engineer(TCS Digital)",
-    description: "At TCS as a System Engineer, I work at company's Noida offices in India.",
+    description: "At TCS as a System Engineer, I worked at company's Noida offices in India.",
     data: ["I work as a full stack developer in TCS Life Sciences technology division."],
   },
+  
   // {
   //   id: 2,
   //   title: "Accenture",
